@@ -21,6 +21,11 @@ To install the extension, execute:
 pip install jupyterlab-pioneer-custom-event-demo
 ```
 
+### Configuration
+
+To add a data exporter, users need to configure the `jupyterlab-pioneer` extension. 
+
+See more details [here](https://github.com/educational-technology-collective/jupyterlab-pioneer#configurations).
 ## Troubleshoot
 
 If you are seeing the frontend extension, but it is not working, check
