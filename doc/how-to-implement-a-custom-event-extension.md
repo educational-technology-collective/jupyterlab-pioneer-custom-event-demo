@@ -29,6 +29,7 @@ dependencies = [
     "jupyterlab-pioneer"
 ]
 ```
+
 ```json
 // package.json
     "jupyterlab": {
@@ -42,7 +43,6 @@ dependencies = [
         }
     },
 ```
-
 
 Note: You will need NodeJS to build the extension package.
 
@@ -157,6 +157,7 @@ When `publishEvent` is called, the router checks if the notebook panel is loaded
 There is no specific restrictions on when and where the telemetry router should be invoked. However, when writing complex event producer libraries, we recommend developers write an event producer class for each event, implement a `listen()` class method, and call the producer's `listen()` method when the producer extension is being activated. Within the `listen()` method, you may write the logic of how the extension listens to Jupyter signals or DOM events and how to use the `pioneer.router.publishEvent()` function to export telemetry data.
 
 ## (Optional) Producer Configuration
+
 In this demo extension, there is only one event and actually does not need to go through the configuration.
 
 However, writing code on top of the configuration file might be very useful when the event library is complex, and when the telemetry system is going to be deployed under different contexts with different needs of telemetry events.

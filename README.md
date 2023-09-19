@@ -36,3 +36,7 @@ the frontend extension, check the frontend extension is installed:
 ```bash
 jupyter labextension list
 ```
+
+## How to implement a custom event extension
+
+https://github.com/educational-technology-collective/jupyterlab-pioneer-custom-event-demo/blob/main/doc/how-to-implement-a-custom-event-extension.md
