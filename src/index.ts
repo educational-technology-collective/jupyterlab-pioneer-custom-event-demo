@@ -39,16 +39,13 @@ const plugin: JupyterFrontEndPlugin<void> = {
 
         await notebookPanel.sessionContext.ready; // wait until session id is created
 
-        await pioneer.router.loadNotebookPanel(notebookPanel); 
-        // loadNotebookPanel should be called first when activating the extension, to associate the telemetry events with the correct notebook panel before exporting data.
-
         node.addEventListener('click', async () => {
           const event = {
             eventName: 'ClickButtonEvent',
             eventTime: Date.now()
           };
 
-          await pioneer.router.publishEvent(event, true); 
+          await pioneer.publishEvent(notebookPanel, event, true);
           // publishEvent could be called whenever we want to publish the event and export telemetry data to the desired endpoints. The publishEvent method takes two arguments, eventDetail: Object and logNotebookContent: Boolean.
 
           window.alert('Telemetry data sent');

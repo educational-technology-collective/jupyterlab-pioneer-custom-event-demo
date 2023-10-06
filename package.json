@@ -58,7 +58,7 @@
         "@jupyterlab/coreutils": "^6.0.0",
         "@jupyterlab/notebook": "^4.0.6",
         "@jupyterlab/services": "^7.0.0",
-        "jupyterlab-pioneer": "^0.1.5"
+        "jupyterlab-pioneer": "^0.1.6"
     },
     "devDependencies": {
         "@jupyterlab/builder": "^4.0.0",
