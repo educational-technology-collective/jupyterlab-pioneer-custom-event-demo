@@ -4014,7 +4014,7 @@ __metadata:
     eslint: ^8.36.0
     eslint-config-prettier: ^8.8.0
     eslint-plugin-prettier: ^5.0.0
-    jupyterlab-pioneer: ^0.1.6
+    jupyterlab-pioneer: ^0.1.9
     mkdirp: ^1.0.3
     npm-run-all: ^4.1.5
     prettier: ^3.0.0
@@ -4031,15 +4031,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"jupyterlab-pioneer@npm:^0.1.6":
-  version: 0.1.6
-  resolution: "jupyterlab-pioneer@npm:0.1.6"
+"jupyterlab-pioneer@npm:^0.1.9":
+  version: 0.1.9
+  resolution: "jupyterlab-pioneer@npm:0.1.9"
   dependencies:
     "@jupyterlab/application": ^4.0.0
     "@jupyterlab/coreutils": ^6.0.0
     "@jupyterlab/notebook": ^4.0.5
     "@jupyterlab/services": ^7.0.0
-  checksum: fbbd31d54cf66b1a457a70800c4fd1617e3fe22fa4b24c79eb05e8c4923ebca42c3e5d173e94ad462ecaa71db6af8339496b51342d07d0ab2163c175ccbbb6da
+  checksum: 9e816d359cf508764ed7073ba8d8f2f2323af6e6cdcdeac86fcbd49b0dba92c054377784137ff4954d249d0e03f5cb600887c9caffb1a9a33154ec505a28c1a6
   languageName: node
   linkType: hard
 

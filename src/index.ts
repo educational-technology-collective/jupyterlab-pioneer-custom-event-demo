@@ -45,7 +45,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
             eventTime: Date.now()
           };
 
-          await pioneer.publishEvent(notebookPanel, event, true);
+          await pioneer.publishEvent(notebookPanel, event, { type: 'console_exporter' } , false );
           // publishEvent could be called whenever we want to publish the event and export telemetry data to the desired endpoints. The publishEvent method takes two arguments, eventDetail: Object and logNotebookContent: Boolean.
 
           window.alert('Telemetry data sent');
