@@ -1,6 +1,6 @@
 {
     "name": "jupyterlab-pioneer-custom-event-demo",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "A JupyterLab extension that generates telemetry data when a user clicks a specific button.",
     "keywords": [
         "jupyter",
@@ -58,7 +58,7 @@
         "@jupyterlab/coreutils": "^6.0.0",
         "@jupyterlab/notebook": "^4.0.6",
         "@jupyterlab/services": "^7.0.0",
-        "jupyterlab-pioneer": "^0.1.9"
+        "jupyterlab-pioneer": "^1.6.0"
     },
     "devDependencies": {
         "@jupyterlab/builder": "^4.0.0",
