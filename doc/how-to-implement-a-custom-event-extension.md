@@ -136,7 +136,7 @@ folder is located. Then you can remove the symlink named `jupyterlab-pioneer-cus
 
 ### Packaging the extension
 
-See [RELEASE](RELEASE.md)
+See [RELEASE](https://github.com/educational-technology-collective/jupyterlab-pioneer-custom-event-demo/blob/main/RELEASE.md)
 
 ## How to utilize the `jupyter-pioneer` extension to export telemetry data
 
